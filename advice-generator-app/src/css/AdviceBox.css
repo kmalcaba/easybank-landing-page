@@ -1,0 +1,19 @@
+.AdviceBox {
+  position: relative;
+  background-color: var(--dark-grayish-blue);
+  padding: 3em;
+  border-radius: 1em;
+  width: calc(500px + 3em);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 26rem) {
+  .AdviceBox {
+    max-width: 350px;
+    padding: 3em 1.5em;
+    transform: translateY(-25%);
+  }
+}
