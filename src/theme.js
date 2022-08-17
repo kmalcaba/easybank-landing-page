@@ -8,4 +8,10 @@ export const theme = {
     bg_secondary: "hsl(220, 16%, 96%)",
     white: "hsl(0, 0%, 100%)",
   },
+  breakpoints: {
+    mobile: "540px",
+    tablet: "768px",
+    desktop: "960px",
+    desktop_lg: "1200px",
+  },
 };
