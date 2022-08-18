@@ -10,6 +10,6 @@ export const MainContainer = styled.div`
     padding: 0 100px;
   }
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
-    padding: 0 20px;
+    padding: 0 35px;
   }
 `;

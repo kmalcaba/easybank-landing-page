@@ -10,6 +10,7 @@ export const StyledBlogCard = styled.div`
 
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
     margin-right: 0;
+    max-width: 100%;
   }
 `;
 
