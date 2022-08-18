@@ -1,5 +1,7 @@
-import { StyledBlogContainer } from "./styles/BlogContainer.styled";
-import { FlexContainer } from "./styles/FlexContainer.styled";
+import {
+  StyledBlogContainer,
+  BlogCardContainer,
+} from "./styles/BlogContainer.styled";
 import { Heading } from "./styles/Main.styled";
 import { MainContainer } from "./styles/MainContainer.styled";
 import blogContent from "../blogcontent";
@@ -10,11 +12,11 @@ const BlogContainer = () => {
     <StyledBlogContainer>
       <MainContainer>
         <Heading>Latest Articles</Heading>
-        <FlexContainer>
+        <BlogCardContainer>
           {blogContent.map((item) => (
             <BlogCard key={item.id} item={item} />
           ))}
-        </FlexContainer>
+        </BlogCardContainer>
       </MainContainer>
     </StyledBlogContainer>
   );
