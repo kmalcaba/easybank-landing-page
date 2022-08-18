@@ -9,9 +9,8 @@ export const StyledFeaturesContainer = styled.div`
 `;
 
 export const FeatureCardContainer = styled(FlexContainer)`
-  flex-wrap: wrap;
-
   @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    flex-wrap: wrap;
     justify-content: center;
   }
 
