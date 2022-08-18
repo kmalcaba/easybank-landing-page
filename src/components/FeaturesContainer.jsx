@@ -1,6 +1,8 @@
 import { Heading, Paragraph } from "./styles/Main.styled";
-import { StyledFeaturesContainer } from "./styles/FeaturesContainer.styled";
-import { FlexContainer } from "./styles/FlexContainer.styled";
+import {
+  StyledFeaturesContainer,
+  FeatureCardContainer,
+} from "./styles/FeaturesContainer.styled";
 import content from "../content";
 import FeatureCard from "./FeatureCard";
 import { MainContainer } from "./styles/MainContainer.styled";
@@ -16,11 +18,11 @@ const FeaturesContainer = () => {
           <br />
           Control your finances like never before.
         </Paragraph>
-        <FlexContainer>
+        <FeatureCardContainer>
           {content.map((item) => (
             <FeatureCard key={item.id} item={item} />
           ))}
-        </FlexContainer>
+        </FeatureCardContainer>
       </MainContainer>
     </StyledFeaturesContainer>
   );
