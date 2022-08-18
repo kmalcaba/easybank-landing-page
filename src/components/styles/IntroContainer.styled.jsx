@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { MainContainer } from "./MainContainer.styled";
 
 export const StyledIntroContainer = styled.div`
   padding: 0;

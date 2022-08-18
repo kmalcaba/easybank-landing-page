@@ -1,4 +1,3 @@
-import { FlexContainer } from "./styles/FlexContainer.styled";
 import {
   StyledFooter,
   Socials,
