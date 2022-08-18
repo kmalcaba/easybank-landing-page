@@ -7,6 +7,10 @@ export const StyledBlogCard = styled.div`
   border-radius: 5px;
   background-color: ${({ theme }) => theme.colors.white};
   overflow: hidden;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+    margin-right: 0;
+  }
 `;
 
 export const Image = styled.img`
@@ -23,6 +27,10 @@ export const Author = styled.p`
   font-size: 0.6rem;
   margin: 0;
   padding: 0;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    text-align: left;
+  }
 `;
 
 export const Title = styled.h4`
@@ -40,6 +48,10 @@ export const Title = styled.h4`
   & > a:hover {
     color: ${({ theme }) => theme.colors.accent_primary};
   }
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    text-align: left;
+  }
 `;
 
 export const Description = styled(Paragraph)`
@@ -50,4 +62,8 @@ export const Description = styled(Paragraph)`
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    text-align: left;
+  }
 `;
