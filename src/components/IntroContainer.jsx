@@ -1,4 +1,3 @@
-import React from "react";
 import { Title, Paragraph } from "./styles/Main.styled";
 import {
   StyledIntroContainer,
@@ -23,7 +22,7 @@ const IntroContainer = () => {
           </Paragraph>
           <Button>Request Invite</Button>
         </Intro>
-        <Image src='./images/image-mockups.png' alt='' />
+        <Image src="./images/image-mockups.png" alt="" />
         <BgContainer />
       </GridContainer>
     </StyledIntroContainer>
