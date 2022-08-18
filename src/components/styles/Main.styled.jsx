@@ -16,9 +16,17 @@ export const Heading = styled.h2`
   margin-top: 7px;
   font-size: 2rem;
   font-weight: 300;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    text-align: center;
+  }
 `;
 
 export const Paragraph = styled.p`
   line-height: 1.5rem;
   margin: 30px 0;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    text-align: center;
+  }
 `;
