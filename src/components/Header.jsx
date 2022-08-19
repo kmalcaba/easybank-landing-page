@@ -10,8 +10,8 @@ const Header = () => {
   return (
     <StyledHeader>
       <HeaderContainer>
-        <a href='/'>
-          <img src='./images/logo.svg' alt='' />
+        <a href="/">
+          <img src="./images/logo.svg" alt="" />
         </a>
         <NavGroup>
           <NavButton>Home</NavButton>

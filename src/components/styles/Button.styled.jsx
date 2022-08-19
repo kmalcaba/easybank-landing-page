@@ -20,4 +20,9 @@ export const Button = styled.button`
   :active {
     opacity: 0.6;
   }
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    font-size: 0.8rem;
+    padding: 14px 22px;
+  }
 `;
