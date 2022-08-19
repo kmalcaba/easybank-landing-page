@@ -51,7 +51,6 @@ const Footer = () => {
           <CtaContainer>
             <Button>Request Invite</Button>
             <CopyParagraph>&copy; Easybank. All Rights Reserved.</CopyParagraph>
-            {/* cta button  and copyright, space-around */}
           </CtaContainer>
         </FooterContainer>
       </MainContainer>
