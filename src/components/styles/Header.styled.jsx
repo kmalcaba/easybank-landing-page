@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Button } from "./Button.styled";
 import { MainContainer } from "./MainContainer.styled";
 
 export const StyledHeader = styled.header`
@@ -11,6 +12,13 @@ export const HeaderContainer = styled(MainContainer)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    padding: 0 80px;
+  }
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+    padding: 0 35px;
+  }
 `;
 
 export const NavGroup = styled.nav`
@@ -31,5 +39,9 @@ export const NavButton = styled.li`
   &:hover {
     color: ${({ theme }) => theme.colors.text_primary};
     border-bottom: 4px solid ${({ theme }) => theme.colors.accent_primary};
+  }
+
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.desktop}) {
+    font-size: 0.8rem;
   }
 `;
