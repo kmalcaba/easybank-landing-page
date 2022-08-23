@@ -12,3 +12,7 @@ I procrastinated this for like 3 months (to be fair, I was doing other projects 
 
 - ReactJS
 - styled-components
+
+## Continued development
+
+The mobile navigation menu could definitely use improvement, like its positioning and animations. Right now, it looks weird when the menu is open and you scroll down the page. It's stuck in the middle of the page because its position is fixed. I could also use framer-motion for an entry animation.
