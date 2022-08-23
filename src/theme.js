@@ -7,6 +7,7 @@ export const theme = {
     bg_primary: "hsl(0, 0%, 98%)",
     bg_secondary: "hsl(220, 16%, 96%)",
     white: "hsl(0, 0%, 100%)",
+    black: "hsl(0, 0%, 20%)",
   },
   breakpoints: {
     mobile: "540px",
